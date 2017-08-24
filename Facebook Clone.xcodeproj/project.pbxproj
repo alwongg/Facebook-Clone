@@ -12,6 +12,8 @@
 		FABC596C1F4E43E600E85E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC596B1F4E43E600E85E2D /* Assets.xcassets */; };
 		FABC596F1F4E43E600E85E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC596D1F4E43E600E85E2D /* LaunchScreen.storyboard */; };
 		FABC59771F4E444F00E85E2D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC59761F4E444F00E85E2D /* Post.swift */; };
+		FABC59791F4E595500E85E2D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC59781F4E595500E85E2D /* PostCell.swift */; };
+		FABC597B1F4E5A8F00E85E2D /* NewsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC597A1F4E5A8F00E85E2D /* NewsFeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FABC596E1F4E43E600E85E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABC59701F4E43E600E85E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FABC59761F4E444F00E85E2D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FABC59781F4E595500E85E2D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		FABC597A1F4E5A8F00E85E2D /* NewsFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FABC596D1F4E43E600E85E2D /* LaunchScreen.storyboard */,
 				FABC59701F4E43E600E85E2D /* Info.plist */,
 				FABC59761F4E444F00E85E2D /* Post.swift */,
+				FABC59781F4E595500E85E2D /* PostCell.swift */,
+				FABC597A1F4E5A8F00E85E2D /* NewsFeedTableViewController.swift */,
 			);
 			path = "Facebook Clone";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABC597B1F4E5A8F00E85E2D /* NewsFeedTableViewController.swift in Sources */,
 				FABC59771F4E444F00E85E2D /* Post.swift in Sources */,
 				FABC59651F4E43E600E85E2D /* AppDelegate.swift in Sources */,
+				FABC59791F4E595500E85E2D /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
